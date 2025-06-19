@@ -20,3 +20,126 @@ font-family: "Outfit", sans-serif;
     margin: 0px;
     padding: 0px;
 }
+
+html,
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#tudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+
+}
+
+img#equilibrium {
+    position: relative;
+    margin: 25px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+section.principal h1 {
+    margin-left: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+section.principal h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+section.principal p {
+    margin: 10px 0px 10px 25px;
+    color: rgba(255, 255, 255, 0.381);
+}
+
+section.article {
+    display: flex;
+    gap: 65px;
+}
+
+section.article>article#eth {
+    color: hsl(178, 100%, 50%);
+    margin: 0px 0px 10px 25px;
+}
+
+section.article>article#days {
+    margin-right: 4px;
+    color: rgba(255, 255, 255, 0.381);
+    font-weight: 300;
+}
+
+section.article>article#days>i {
+    margin: 5px;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.09);
+    width: 245px;
+    margin-left: 27px;
+}
+
+section#final {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 20px 0px 10px 25px;
+}
+
+picture>img#avatar {
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+
+section#final>article#jules {
+    display: flex;
+    color: rgba(255, 255, 255, 0.381);
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+article#nome {
+    color: white;
+    margin-left: 5px;
+}
+
+article#nome:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+div.attribution {
+    color: white;
+    font-size: 15px;
+}
+
+div.attribution>a {
+    text-decoration: none;
+    color: hsl(215, 51%, 70%);
+}
+
+div.attribution>a:hover {
+    text-decoration: underline;
+    color: hsl(214, 100%, 50%);
+}
